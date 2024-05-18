@@ -2,10 +2,14 @@
   "name": "msw-tutorial",
   "version": "0.0.1",
   "description": "Tutorial for mock service worker",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Simon Revill",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "msw": "^2.3.0"
+  }
 }
